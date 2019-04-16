@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>拼图</title>
+    <link rel="stylesheet" href="./pintu.css">
+</head>
+<body>
+    <div class="body_box">
+        <div class="box">
+            <div class="pt" id="p1" onclick="move(1)">1</div>
+            <div class="pt" id="p2" onclick="move(2)">2</div>
+            <div class="pt" id="p3" onclick="move(3)">3</div>
+            <div class="pt" id="p4" onclick="move(4)">4</div>
+            <div class="pt" id="p5" onclick="move(5)">5</div>
+            <div class="pt" id="p6" onclick="move(6)">6</div>
+            <div class="pt" id="p7" onclick="move(7)">7</div>
+            <div class="pt" id="p8" onclick="move(8)">8</div>
+        </div>
+        <div class="control">
+            <div>总用时:<span id="timer">0</span></div>
+            <p>
+                <rowspan id="start" onclick="start()">开始</rowspan>
+                <rowspan id="reset" onclick="reset()">重来</rowspan>
+            </p>
+        </div>
+    </div>
+<script src="./pintu.js"></script>
+</body>
+</html>

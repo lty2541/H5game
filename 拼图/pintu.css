@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body_box{
+    width: 620px;
+    height: 450px;
+    
+    margin: 80px auto;
+}
+.box{
+    width: 450px;
+    height: 450px;
+    background: #ffe171;
+    display: inline-block;
+    position: relative;
+}
+.control{
+    height: 450px;
+    width: 140px;
+    background: pink;
+    display: inline-block;
+    float: right;
+}
+/* ---------------------------------小拼图------------------------- */
+.box .pt{
+    width: 149px;
+    height: 149px;
+    background:skyblue;
+    color: #fff;
+    box-shadow: 1px 1px 2px #777;
+    text-align: center;
+    line-height: 149px;
+    font-size: 150px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.box div:hover{
+    color: #ffe171;
+}
+#start{
+    display: inline-block;
+    /* font-size: 28px; */
+    width: 100px;
+    height: 28px;
+    background-color: #20a6fa;
+    /* color: #ffe171; */
+    text-shadow: 1px 1px 2px #ffe171;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #4c98f5;
+    text-align: center;
+    cursor: pointer;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+/*给Reset按钮设置属性*/
+#reset{
+    display: inline-block;
+    /* font-size: 28px; */
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #20a6fa;
+    /* color: #ffe171; */
+    text-shadow: 1px 1px 2px #ffe171;/*字体阴影*/
+    border-radius: 5px;/*圆角属性*/
+    box-shadow: 2px 2px 5px #4c98f5;/*盒子阴影*/
+    text-align: center;/*文字居中*/
+    cursor: pointer;
+}
+#p1{
+    left: 0;
+    top:0;
+}
+#p2{
+    left: 150px;
+    top:0;
+}
+#p3{
+    left: 300px;
+    top:0;
+}
+#p4{
+    left: 0;
+    top:150px;
+}
+#p5{
+    left: 150px;
+    top:150px;
+}
+#p6{
+    left: 300px;
+    top:150px;
+}
+#p7{
+    left: 0px;
+    top:300px;
+}
+#p8{
+    left: 150px;
+    top:300px;
+}
